@@ -15,5 +15,12 @@
   "license": "ISC",
   "devDependencies": {
     "concurrently": "^5.1.0"
+  },
+  "dependencies": {
+    "apollo-server-express": "^3.1.2",
+    "graphql": "^15.5.1",
+    "materialize-css": "^1.0.0-rc.2",
+    "node-sass": "^4.14.1",
+    "react-materialize": "^3.9.9"
   }
 }

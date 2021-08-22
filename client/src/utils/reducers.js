@@ -21,7 +21,7 @@ const defaultState = {
 }
 
 // Root reducer
-const reducer = (state=defaultState, action) => {
+export const reducers = (state=defaultState, action) => {
     switch (action.type) {
         // if the action type value is the value of `UPDATE_PRODUCTS`, return a new state object with an updated products array
         case UPDATE_PRODUCTS:
@@ -96,5 +96,3 @@ const reducer = (state=defaultState, action) => {
             return state;
     }
 };
-
-export default reducer;

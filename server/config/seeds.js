@@ -120,7 +120,7 @@ db.once('open', async () => {
       category: categories[4]._id,
       description:
         'Vestibulum et erat finibus erat suscipit vulputate sed vitae dui. Ut laoreet tellus sit amet justo bibendum ultrices. Donec vitae felis vestibulum, congue augue eu, finibus turpis.',
-      image: 'teddy-bear.jpg',
+      image: 'new-switch.jpg',
       price: 299.99,
       quantity: 2
     }

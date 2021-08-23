@@ -2,15 +2,24 @@
 
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
+  --width: 100vw;
+  --height: 100vh;
+  --unit: 10px;
+  --color1: #2d232e;
+  --color2: #e0ddcf;
+  --color3: transparent;
+  --color5: #534b52;
 }
 
 * {
   box-sizing: border-box;
+  
 }
 
 html,
 body {
   min-height: 100%;
+
 }
 
 body {

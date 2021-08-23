@@ -16,8 +16,12 @@ body {
 body {
   margin: 0;
   padding: 0;
+  background-image: linear-gradient(to right top, #2d232e, #332b34, #3a333b, #403c41, #474448);
 }
 
+nav {
+  background: #332b34;
+}
 
 @media screen and (max-width: 768px) {
   .card {

@@ -35,73 +35,54 @@ body {
 
 nav {
   margin: 7px 0;
-  justify-content: center;
-
-  
 }
 
-nav h1 {
-  font-weight: bold;
-  font-size: 40px;
-  color: white;
+nav {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+}
+
+
+.brand-logo {
+  font-weight: bolder;
   margin: 0;
-  text-shadow: 2px 2px 4px #000000;
+  text-shadow: 2px 2px 4px #685e5e;
+  font-family: 'Montserrat Subrayada', sans-serif;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: 'Rubik', sans-serif;
-  font-weight: 500;
-  margin: 5px 0;
-  line-height: 1.25;
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
 }
 
-h1 {
-  font-size: 2.25rem;
+nav ul li a {
+  padding: 10px 15px;
+  font-weight:bold;
+  font-size: 1.55vw;
+  font-size: 20px;
+  color: black;
+  text-shadow: 1px 1px 1px #685e5e
 }
 
-h2 {
-  font-size: 2rem;
-}
-
-h3 {
-  font-size: 1.75rem;
-}
-
-h4 {
-  font-size: 1.5rem;
-}
-
-h5 {
-  font-size: 1.25rem;
-}
-
-h6 {
-  font-size: 1rem;
-}
-
-p {
-  font-size: 1.1rem;
-  margin-top: 0;
-}
-
-a {
-  color: var(--tertiary);
-  text-decoration: none;
-  font-weight: bold;
-}
-
-a:hover {
-  text-decoration: underline;
+nav ul li a:hover {
+  background: #2d232e;
+  color: #F1f0ea;
+  border-radius: 60px;
+  text-shadow: none;
 }
 
 .hero {
   width: 100vw;
   height: 100vh;
+  margin-top: 0%;
   margin-bottom: 25px;
   background-image: url("../src/assets/hero.jpeg");
   display: flex;
@@ -148,29 +129,47 @@ a:hover {
   background-color: rgba(19, 18, 20, 0.8);
 }
 
-header {
-  padding: 20px 35px;
-  background-color: #f1f0ea;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  z-index: 9999;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  margin: 5px 0;
+  line-height: 1.25;
 }
 
-header a {
-  color: var(--light);
+h1 {
+  font-size: 2.25rem;
 }
 
-header nav ul {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content:space-evenly;
-  align-items: center;
-  list-style: none;
+h2 {
+  font-size: 2rem;
 }
+
+h3 {
+  font-size: 1.75rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+h5 {
+  font-size: 1.25rem;
+}
+
+h6 {
+  font-size: 1rem;
+}
+
+p {
+  font-size: 1.1rem;
+  margin-top: 0;
+}
+
 
 button {
   font-size: 1rem;

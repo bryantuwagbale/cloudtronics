@@ -40,7 +40,7 @@ function Nav() {
 
     <nav>
     <div class="nav-wrapper white black-text">
-      <a href="#!" class="brand-logo center  black-text"><i class="material-icons">cloud</i>Cloudtronics</a>
+      <a href="/" class="brand-logo center  black-text"><i class="material-icons">cloud</i>Cloudtronics</a>
       <div>{showNavigation()}</div>
     </div>
   </nav>

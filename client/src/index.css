@@ -180,7 +180,7 @@ button {
   outline: none;
   cursor: pointer;
   margin: 0 1px;
-  background-color: var(--secondary);
+  background-color: #e0ddcf;
 }
 
 button:hover {
@@ -278,9 +278,52 @@ input:focus {
   padding-bottom: var(--spacing-two);
 }
 
+.products-section {
+  margin-top: 60px;
+}
+
+.products-section h2 {
+  text-shadow: 3px 3px 4px #685e5e;
+  background-color: #f1f0ea;
+  color: #2d232e;
+  font-weight: bold;
+  box-shadow: 4px 4px 4px #726f6f;
+}
+
+.product-list {
+  justify-content: space-between;
+  margin: 15px;
+  padding: 10px;
+  box-shadow: 4px 4px 4px #726f6f;
+}
+
 .card {
   width: 25%;
   text-align: center;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  height: 450px;
+  justify-content: space-between;
+  overflow: hidden;
+  position: relative;
+  white-space: normal;
+  width: 313px;
+  border-style: solid;
+  border-color: #726f6f;
+}
+
+.card p {
+  color: #111111;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: left;  
+}
+
+.card:hover .card-img {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  opacity: 0.6;
 }
 
 .error-text {

@@ -47,6 +47,7 @@
   - [bryant.uwagbale@gmail.com](mailto:bryant.uwagbale@gmail.com)  
   - [joshuatvn@gmail.com](mailto:Joshuatvn@gmail.com)
   - [virginia.rabello2107@gmail.com](mailto:virginia.rabello2107@gmail.com)
+  - [marisela.gutierrez201@gmail.com](mailto:marisela.gutierrez201@gmail.com)
 
 
  

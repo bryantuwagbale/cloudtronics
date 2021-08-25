@@ -15,6 +15,7 @@ import Nav from './components/Nav';
 import 'materialize-css';
 import { Provider } from 'react-redux';
 import store from '../src/utils/store';
+import Hero from './components/Hero';
 const httpLink = createHttpLink({
   uri: '/graphql',
 });
@@ -41,6 +42,7 @@ function App() {
         <div>
           <Provider store={store}>
           <Nav />
+          <Hero />
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/login" component={Login} />

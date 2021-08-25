@@ -2,13 +2,12 @@ import React from "react";
 
 const NoMatch = () => {
   return (
-    <div>
-        <h1>404 Page Not Found</h1>
-        <h1>
-          <span role="img" aria-label="Face With Rolling Eyes Emoji">
-            🙄
-          </span>
-        </h1>
+    <div class="hero" role="img" aria-label="">
+      <div class="hero-inner">
+        <div>
+            <h1>Something went wrong...</h1>
+        </div>
+      </div>
     </div>
   );
 };

@@ -59,7 +59,7 @@ function ProductList() {
             ))}
         </div>
       ) : (
-        <h3>You haven't added any products yet!</h3>
+        <h4>You haven't added any products yet!</h4>
       )}
       
     </div>

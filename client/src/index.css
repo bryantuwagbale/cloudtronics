@@ -105,7 +105,7 @@ nav ul li a:hover {
   margin-bottom: 0.5em;
   color: white;
   font-family: 'Heebo', sans-serif;
-  text-shadow: 6px 6px 6px #000000;
+  text-shadow: 7px 7px 7px #000000;
 }
 
 .hero h4 {
@@ -317,7 +317,8 @@ input:focus {
   color: #111111;
   font-size: 25px;
   font-weight: bold;
-  text-align: left;  
+  text-align: left;
+  text-shadow: 1px 1px 1px #685e5e;  
 }
 
 .card:hover .card-img {

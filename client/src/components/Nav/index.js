@@ -2,6 +2,7 @@ import React from "react";
 import Auth from "../../utils/auth";
 import { Link } from "react-router-dom";
 import 'materialize-css';
+import 'materialize-css/dist/css/materialize.min.css';
 
 function Nav() {
 
@@ -44,7 +45,7 @@ function Nav() {
         </Link>
       </h1>
 
-      <nav>
+      <nav class='grey darken-3'>
         {showNavigation()}
       </nav>
     </header>

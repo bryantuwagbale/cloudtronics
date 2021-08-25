@@ -12,6 +12,7 @@ import NoMatch from './pages/NoMatch';
 import Login from './pages/Login';
 import Signup from './pages/Signup';
 import Detail from './pages/Detail';
+import Success from './pages/Success';
 import OrderHistory from './pages/OrderHistory';
 import Nav from './components/Nav';
 import 'materialize-css';
@@ -50,6 +51,7 @@ function App() {
             <Route exact path="/store" component={Store} />
             <Route exact path="/login" component={Login} />
             <Route exact path="/signup" component={Signup} />
+            <Route exact path="/success" component={Success} />
             <Route exact path="/orderHistory" component={OrderHistory} />
             <Route exact path="/products/:id" component={Detail} />
             <Route component={NoMatch} />

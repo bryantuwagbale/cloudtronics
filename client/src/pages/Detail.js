@@ -92,7 +92,7 @@ function Detail() {
       <div class="hero" role="img" aria-label="">
       <div class="hero-inner">
         <FormDiv className="container">
-          <Link to="/">
+          <Link to="/store">
             ← Back to Products
           </Link>
 

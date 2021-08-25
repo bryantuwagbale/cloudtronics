@@ -48,7 +48,7 @@ export const Close = styled.div`
 `
 export const CartClosed = styled.div`
   position: fixed;
-  top: 10%;
+  top: 15%;
   right: 1%;
   font-size: 2rem;
   cursor: pointer;

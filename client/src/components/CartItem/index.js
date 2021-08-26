@@ -1,5 +1,5 @@
 import React from 'react';
-import { REMOVE_FROM_CART, UPDATE_CART_QUANTITY } from "../../utils/actions";
+import { REMOVE_FROM_CART, UPDATE_CART_QUANTITY } from "../../utils/dist/actions";
 import { idbPromise } from "../../utils/helpers";
 import { useDispatch } from 'react-redux';
 import { CartImg, CartInput, ItemWrapper } from './styles';

@@ -56,7 +56,6 @@ export const CartClosed = styled.div`
   padding-left: .2rem;
   width: 50px;
   height: 50px;
-
   &:hover {
     background-color: white;
     border-style: solid;

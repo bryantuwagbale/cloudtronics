@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useMutation } from '@apollo/react-hooks';
 import Auth from '../utils/auth';
-import { ADD_USER } from '../utils/mutations';
+import { ADD_USER } from '../utils/dist/mutations';
 import { FormDiv, InputDiv, Form } from './styles';
 
 function Signup(props) {

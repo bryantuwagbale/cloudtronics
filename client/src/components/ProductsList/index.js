@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
 import ProductItem from "../ProductItem";
-import { UPDATE_PRODUCTS } from "../../utils/actions";
+import { UPDATE_PRODUCTS } from "../../utils/dist/actions.min.js";
 import { useQuery } from '@apollo/react-hooks';
-import { QUERY_PRODUCTS } from "../../utils/queries";
+import { QUERY_PRODUCTS } from "../../utils/dist/queries.min.js";
 import { idbPromise } from "../../utils/helpers";
 import { useSelector, useDispatch } from 'react-redux';
 

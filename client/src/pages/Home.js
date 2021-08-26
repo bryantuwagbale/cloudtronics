@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import 'materialize-css';
 import ProductList from "../components/ProductsList";
 

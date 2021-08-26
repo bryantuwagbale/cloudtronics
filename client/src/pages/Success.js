@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { useMutation } from '@apollo/react-hooks';
-import { ADD_ORDER } from "../utils/mutations";
+import { ADD_ORDER } from "../utils/dist/mutations";
 import { idbPromise } from "../utils/helpers";
 
 function Success() {

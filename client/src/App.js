@@ -17,7 +17,7 @@ import OrderHistory from './pages/OrderHistory';
 import Nav from './components/Nav';
 import 'materialize-css';
 import { Provider } from 'react-redux';
-import store from '../src/utils/store';
+import store from '../src/utils/dist/store';
 import Home from './pages/Home';
 
 const httpLink = createHttpLink({

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useMutation } from '@apollo/react-hooks';
 import { Link } from 'react-router-dom';
-import { LOGIN } from '../utils/mutations';
+import { LOGIN } from '../utils/dist/mutations';
 import Auth from '../utils/auth';
 import { FormDiv, Form, InputDiv } from './styles';
 import 'materialize-css/dist/css/materialize.min.css';

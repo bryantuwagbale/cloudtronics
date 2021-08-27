@@ -89,8 +89,8 @@ function Detail() {
     <>
     
       {currentProduct && cart ? (
-      <div class="hero" role="img" aria-label="">
-      <div class="hero-inner">
+      <div className="hero" role="img" aria-label="">
+      <div className="hero-inner">
         <FormDiv className="container">
           <Link to="/store">
             ← Back to Products

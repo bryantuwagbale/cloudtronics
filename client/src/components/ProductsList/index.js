@@ -43,7 +43,7 @@ function ProductList() {
 
   return (
     <div className="products-section my-2 py-2">
-      <h2 class="center-align">Our Products</h2>
+      <h2 className="center-align">Our Products</h2>
       {state.products.length ? (
         
         <div className="product-list flex-row">

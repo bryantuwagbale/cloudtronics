@@ -6,7 +6,7 @@ import Cart from "../components/Cart";
 const Home = () => {
 
   return (
-    <div class="hero" role="img" aria-label="">
+    <div className="hero" role="img" aria-label="">
     <div className="container">
       <CategoriesList/>
       <ProductList/>

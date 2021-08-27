@@ -32,8 +32,8 @@ function Signup(props) {
   };
 
   return (
-    <div class="hero" role="img" aria-label="">
-    <div class="hero-inner">
+    <div className="hero" role="img" aria-label="">
+    <div className="hero-inner">
       <FormDiv>
     <div className="container my-1">
       <Link to="/login">← Go to Login</Link>

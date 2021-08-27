@@ -42,7 +42,7 @@ function CategoriesList() {
   };
 
   return (
-    <div class="center-align">
+    <div className="center-align">
       <Title>Choose a Category:</Title>
       
       {categories.map(item => (

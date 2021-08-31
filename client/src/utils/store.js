@@ -7,6 +7,7 @@ import { composeWithDevTools } from 'redux-devtools-extension';
 const initialState = {
     products: [],
     cart: [],
+    loginOpen: false,
     cartOpen: false,
     categories: [],
     currentCategory: ''

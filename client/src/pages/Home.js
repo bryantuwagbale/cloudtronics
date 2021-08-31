@@ -1,16 +1,16 @@
-import 'materialize-css';
 import React from "react";
-import ProductList from "../components/ProductsList";
-import CategoriesList from "../components/CategoriesMenu";
-import Cart from "../components/Cart";
+
+
 const Home = () => {
 
   return (
-    <div className="container">
-      <CategoriesList/>
-      <ProductList/>
-      <Cart/>
-    </div>
+  <div className="hero" role="img" aria-label="">
+    <div className="hero-inner">
+      <h1>TECHNOLOGY WITH A PURPOSE.</h1>
+      <h4>Sign up now to the safest marketplace for used tech</h4>
+      <a href="/store" className="hero-btn">Go ahead...</a>
+     </div>
+  </div>
   );
 };
 

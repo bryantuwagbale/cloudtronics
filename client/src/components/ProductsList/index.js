@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
 import ProductItem from "../ProductItem";
-import { UPDATE_PRODUCTS } from "../../utils/actions";
+import { UPDATE_PRODUCTS } from "../../utils/dist/actions";
 import { useQuery } from '@apollo/react-hooks';
-import { QUERY_PRODUCTS } from "../../utils/queries";
+import { QUERY_PRODUCTS } from "../../utils/dist/queries";
 import { idbPromise } from "../../utils/helpers";
 import { useSelector, useDispatch } from 'react-redux';
 
@@ -43,7 +43,7 @@ function ProductList() {
 
   return (
     <div className="products-section my-2 py-2">
-      <h2 class="center-align">Our Products</h2>
+      <h2 className="center-align">Our Products</h2>
       {state.products.length ? (
         
         <div className="product-list flex-row">
@@ -59,7 +59,7 @@ function ProductList() {
             ))}
         </div>
       ) : (
-        <h3>You haven't added any products yet!</h3>
+        <h4>You haven't added any products yet!</h4>
       )}
       
     </div>

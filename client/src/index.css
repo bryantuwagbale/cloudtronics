@@ -26,19 +26,14 @@ body {
 body {
   margin: 0;
   padding: 0;
-  background-image: linear-gradient(to left bottom, #110f11, #171317, #1c171c, #211b21, #261e27, #271e26, #271d24, #271d23, #21191c, #1b1516, #141010, #0a0909);
+ 
   font-weight: 400;
   line-height: 1.5;
   font-size: 16px;
 }
 
-
 nav {
-  margin: 7px 0;
-}
-
-nav {
-  display: flex;
+  margin: 0;
   justify-content: space-between;
   flex-wrap: wrap;
   position: -webkit-sticky;
@@ -48,7 +43,7 @@ nav {
 }
 
 
-.brand-logo {
+nav .brand-logo {
   font-weight: bolder;
   margin: 0;
   text-shadow: 2px 2px 4px #685e5e;
@@ -80,25 +75,25 @@ nav ul li a:hover {
 }
 
 .hero {
-  width: 100vw;
-  height: 100vh;
-  margin-top: 0%;
-  margin-bottom: 25px;
+  min-height: 1200px;
   background-image: url("../src/assets/hero.jpeg");
-  display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-size: cover;
+}
 
+.hero-inner {
+  display: block;
+  padding: 10%;
 }
 
 .hero h1 {
   /* Text styles */
-  font-size: 5em;
+  font-size: 5vw;
   
   /* Margins */
   margin-top: 0;
@@ -142,27 +137,27 @@ h6 {
 }
 
 h1 {
-  font-size: 2.25rem;
+  font-size: 2.25vw;
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 2vw;
 }
 
 h3 {
-  font-size: 1.75rem;
+  font-size: 1.75vw;
 }
 
 h4 {
-  font-size: 1.5rem;
+  font-size: 1.5vw;
 }
 
 h5 {
-  font-size: 1.25rem;
+  font-size: 1.25vw;
 }
 
 h6 {
-  font-size: 1rem;
+  font-size: 1vw;
 }
 
 p {
@@ -219,10 +214,12 @@ input:focus {
 }
 
 .container {
-  width: 85%;
+  width:85%;
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 .flex-row {
@@ -278,10 +275,6 @@ input:focus {
   padding-bottom: var(--spacing-two);
 }
 
-.products-section {
-  margin-top: 60px;
-}
-
 .products-section h2 {
   text-shadow: 3px 3px 4px #685e5e;
   background-color: #f1f0ea;
@@ -291,10 +284,12 @@ input:focus {
 }
 
 .product-list {
-  justify-content: space-between;
+  justify-content: space-around;
   margin: 15px;
   padding: 10px;
   box-shadow: 4px 4px 4px #726f6f;
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 .card {

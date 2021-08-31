@@ -8,7 +8,7 @@ function Nav() {
   function showNavigation() {
     if (Auth.loggedIn()) {
       return (
-        <ul class="right hide-on-med-and-down">
+        <ul className="right hide-on-med-and-down">
           
           <li className="mx-1">
             {/* this is not using the Link component to logout or user and then refresh the application to the start */}
@@ -20,7 +20,7 @@ function Nav() {
       );
     } else {
       return (
-        <ul class="right hide-on-med-and-down">
+        <ul className="right hide-on-med-and-down">
           <li className="mx-1">
             <Link to="/signup">
               Signup
@@ -39,8 +39,8 @@ function Nav() {
   return (
 
     <nav>
-    <div class="nav-wrapper white black-text">
-      <a href="/" class="brand-logo center  black-text"><i class="material-icons">cloud</i>Cloudtronics</a>
+    <div className="nav-wrapper white black-text">
+      <a href="/" className="brand-logo center  black-text"><i className="material-icons">cloud</i>Cloudtronics</a>
       <div>{showNavigation()}</div>
     </div>
   </nav>
